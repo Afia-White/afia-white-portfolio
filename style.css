@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+    }
+/* }ocation-dot{
+    color:white;
+    background-color:blue;
+    border-radius:50%;
+   
+    padding:0.2rem;
+}
+
+h1{
+    padding:25px;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.fa-telegram{
+    color:white;
+    border-radius:50%;
+    
+    padding:0.2rem;
+}
+
+.fa-phone{
+    color:white;
+    background-color:green;
+    border-radius:50%;
+   
+    padding:0.2rem;
+}
+
+.mid-nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ul{
+    display:flex;
+    gap:35px;
+}
+
+.ul li{
+    list-style:none;
+}
+
+.main{
+    background-image:url(./images/bg5.jpg);
+    height:100vh;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5),rgba(225, 225, 225, 0.5));
+}
+
+.main > div h4{
+    color:white;
+    text-transform: capitalize;
+    font-size:65px;
+    font-weight:600;
+    text-align: center;
+} */
+/* 
+.top-nav > ul{
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.span1,.span2,.span3{
+    display: flex;
+    align-items: center;
+}
+
+.top-nav{
+    background-color: #33aaff;
+    padding:1rem;
+}
+
+.span li{
+    color: white;
+    list-style: none;
+    padding:5px;
+}
+
+.fa-l                    */
+
+/* to nav */
+.last-nav{
+    align-items: center;
+    display:flex;
+    color:white;
+    text-transform:capitalize;
+    padding:0.1px;
+    background-color: black;
+    justify-content: space-around;
+    width:100%;
+}
+
+.maami{
+
+    /* gap:55px; */
+    /* margin-left:600px; */
+    font-size:19px;
+}
+
+.maami li{
+    display: inline-block;
+    list-style:none;
+    color:white;
+}
+/* end */
+
+.night{
+    background-image: url(./images/download.jpeg);
+    height:150vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.night > div h4{
+    color:white;
+    text-transform: capitalize;
+    font-size:35px;
+    font-weight:600;
+    padding-left:55px;
+    padding-top:65px;
+}
+
+.skills h1{
+    margin-left:290px;
+    margin-top:25px;
+    text-decoration: underline;
+}
+
+.button1{
+    height:300px;
+    width:300px;
+}
+
+.button2{
+    height:300px;
+    width:300px;
+    margin-left: 100px;
+}
+
+.button3{
+    height:300px;
+    width:300px;
+    margin-top:200px;
+    margin-left:1.9px;
+}
+
+.button4{
+    height:300px;
+    width:300px;
+    margin-top:100px;
+    margin-left:100px;
+}
+
+input{
+    height:70px;
+    width:150px;
+    margin-left:105px;
+}
+
+.logo{
+      height:95px;
+      width:95px;
+      border-radius:50%;   
+}
+
+.logo-div{
+    display:flex;
+    align-items:center;
+}
+
+span{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight:900;
+  font-style: normal;
+  color:purple;
+  font-size:35px;  
+}
+
+@media(max-width:786px){
+    .maami {
+        flex-direction: column;
+        /* gap:55px; */
+        /* margin-left:600px; */
+        /* font-size:19px; */
+        align-items:center;
+    } 
+    
+
+    .last-nav{
+        display: block;
+    }
+    .maami li{
+        display: inline-block;
+    }
+}
