@@ -112,6 +112,7 @@ h1{
 .maami li{
     display: inline-block;
     list-style:none;
+    margin:1rem;
     color:white;
 }
 /* end */
@@ -204,6 +205,8 @@ input{
     .last-nav{
         /* display: block; */
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
     .maami li{
         /* display: inline-block; */
