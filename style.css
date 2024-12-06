@@ -225,9 +225,9 @@ input{
     }
 }
 
-.background-info > div img{
+.background-info >.images img{
     height:50vh;
-    width:50vh;
-    margin-left:100px;
-    border-radius:50%;
+    width:100vh;
+    margin-left:150px;
+    border-radius:60%;
 }
