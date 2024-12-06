@@ -224,3 +224,10 @@ input{
         font-size:15px;
     }
 }
+
+.background-info > div img{
+    height:50vh;
+    width:50vh;
+    margin-left:900px;
+    border-radius:50%;
+}
