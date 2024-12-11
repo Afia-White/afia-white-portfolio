@@ -192,6 +192,13 @@ input{
      margin-left:350px;
 }
 
+.search{
+    height:50vh;
+    border-radius:50%;
+    margin-left:280px;
+    margin-top:90px;
+}
+
 @media(max-width:786px){
     .maami {
         flex-direction: column;
