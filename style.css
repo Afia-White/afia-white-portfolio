@@ -118,10 +118,13 @@ h1{
 /* end */
 
 .night{
-    background-image: url(./images/download.jpeg);
+    background-image: url(./images/bg-2.jpg);
     height:100vh;
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .night > div h4{
@@ -185,19 +188,115 @@ font-family: "Dancing Script", cursive;
   font-weight:900  ;
   font-style: normal;
   color:purple;
-  font-size:35px;  
+  font-size:35px;     
 }
 
-input{
-     margin-left:350px;
+.background-info{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap:100px;
 }
-
-.search{
-    height:50vh;
+.background-info >.images img{
+    height:350px;
+    width:350px;
     border-radius:50%;
-    margin-left:280px;
-    margin-top:90px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media(max-width:786px){
     .maami {
@@ -230,11 +329,11 @@ input{
         font-weight:500;
         font-size:15px;
     }
+
+    .background-info{
+        flex-direction: column;
+        align-items: center;
+        
+    }
 }
 
-.background-info >.images img{
-    height:50vh;
-    width:100vh;
-    margin-left:150px;
-    border-radius:60%;
-}
