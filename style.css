@@ -280,7 +280,7 @@ span{
     .background-info{
         flex-direction: column;
         align-items: center;
-        
+        gap:10px;
     }
 }
 
