@@ -101,6 +101,7 @@ h1{
     background-color: black;
     justify-content: space-around;
     width:100%;
+    z-index:999;
 }
 
 .maami{
@@ -183,19 +184,29 @@ input{
 }
 
 span{
-font-family: "Dancing Script", cursive;
+    font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-weight:900  ;
   font-style: normal;
-  color:purple;
+  color:yellow;
   font-size:35px;     
+}
+
+.background-info > div h1 span{
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight:900  ;
+  font-style: normal;
+  color:yellow;
+  font-size:55px;  
+  padding-left:25px;   
 }
 
 .background-info{
     display: flex;
     justify-content:center;
     align-items:center;
-    gap:100px;
+    gap:20px;
 }
 .background-info >.images img{
     height:350px;
@@ -203,98 +214,34 @@ font-family: "Dancing Script", cursive;
     border-radius:50%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.background-info > div h1{
+    color: white;
+    font-size:55px;
+}
+
+
+.background-info > div p{
+    color:white;
+    font-size:25px;
+    font-weight:700;
+}
+
+
+.background-info > div button{
+    background-color:yellow;
+    color:black;
+    padding:10px;
+    border:none;
+    margin-top:25px;
+    border-radius:6px;
+    font-weight:700;
+}
+
+.fa-whatsapp, .fa-facebook, .fa-instagram{
+    color:white;
+    font-size:15px;
+    margin:15px 10px;
+}
 
 
 
