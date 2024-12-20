@@ -243,7 +243,12 @@ span{
     margin:15px 10px;
 }
 
-
+.about {
+    display: flex;
+    height:100px;
+    width:100px;
+    border-radius:50px;
+}
 
 @media(max-width:786px){
     .maami {
