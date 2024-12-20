@@ -285,6 +285,12 @@ span{
     line-height:25px;
 }
 
+.about-main > div h1{
+    color:white;
+    line-height:25px;
+    white-space: nowrap;
+}
+
 .about-main > div button{
     padding:10px;
     width:100px;
