@@ -250,7 +250,7 @@ span{
     text-decoration-color:white;
     color:white;
     font-weight:600;
-    font-size:50px;
+    font-size:30px;
 }
 
 #about{
@@ -276,7 +276,7 @@ span{
 .about-main div:nth-child(1){
     border:0.6rem solid white;
     height:400px;
-    width:400px;
+    width:370px;
 }
 
 .about-main > div h1 , p{
