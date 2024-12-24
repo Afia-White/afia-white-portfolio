@@ -297,6 +297,12 @@ span{
     margin-top:6px;
 }
 
+#services .my{
+    text-align: center;
+    text-decoration: underline;
+    font-size:30px;
+}
+
 @media(max-width:786px){
     .maami {
         flex-direction: column;
