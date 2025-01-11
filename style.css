@@ -247,15 +247,15 @@ span{
     text-align: center;
     padding:20px;
     text-decoration:underline;
-    text-decoration-color:white;
-    color:white;
+    text-decoration-color:black;
+    color:black;
     font-weight:600;
     font-size:30px;
     white-space:nowrap;
 }
 
 #about{
-    background-color: black;
+    /* background-color: black; */
     padding:90px;
 }
 
@@ -271,22 +271,22 @@ span{
     height:400px;
     width:400px;
     position: relative;
-    top:-20px;
+    top:-3px;
 }
 
 .about-main div:nth-child(1){
-    border:0.6rem solid white;
+    border:0.1rem solid black;
     height:400px;
     width:370px;
 }
 
 .about-main > div h1 , p{
-    color:white;
+    color:black;
     line-height:25px;
 }
 
 .about-main > div h1{
-    color:white;
+    color:black;
     line-height:25px;
     white-space: nowrap;
 }
@@ -301,6 +301,45 @@ span{
     text-align: center;
     text-decoration: underline;
     font-size:30px;
+}
+
+.services{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services-image{
+    height:200px;
+}
+
+.services > div{
+    height:295px;
+    width:350px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius:5px;
+    padding:100px;
+}
+
+.services > div div > button{
+    border:none;
+    color:yellow;
+    background-color:black;
+    padding:0.4rem;
+    font-weight:200;
+    border-radius:5px;
+}
+
+.services-header{
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom:55px;
 }
 
 @media(max-width:786px){
@@ -347,6 +386,14 @@ span{
     .about-main{
         flex-direction: column;
         align-items: center;
+    }
+
+    .services{
+        /* display:flex; */
+        /* justify-content: space-around; */
+        align-items: center;
+        flex-direction: column;
+        gap:25px;
     }
 }
 
