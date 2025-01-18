@@ -4,7 +4,7 @@
     box-sizing:border-box;
     font-family:sans-serif;
     }
-/* }ocation-dot{
+/* location-dot{
     color:white;
     background-color:blue;
     border-radius:50%;
@@ -101,6 +101,7 @@ h1{
     background-color: black;
     justify-content: space-around;
     width:100%;
+    position: fixed;
     z-index:999;
 }
 
@@ -115,6 +116,11 @@ h1{
     list-style:none;
     margin:1rem;
     color:white;
+}
+
+.maami > li a{
+    color:white;
+    text-decoration:none;
 }
 /* end */
 
@@ -340,6 +346,53 @@ span{
     text-decoration: underline;
     text-align: center;
     margin-bottom:55px;
+}
+/* to my skills */
+.skills-main-container{
+    background-color:#fff;
+    padding:20px;
+    width:100%;
+    box-shadow:0 4px 10px rgba(0,0,0,0.5);
+    border-radius:5px;
+    margin-top:20px;
+}
+
+.skills-main-container h1{
+    text-align:center;
+}
+
+.skills-container{
+    display:flex;
+    justify-content:space-between;
+}
+
+.skills-column{
+    width:48%;
+}
+
+.skills label{
+    display:block;
+    color:#555;
+    margin-bottom:5px;
+    font-weight:500;
+}
+
+.progress{
+    background-color:#ddd;
+    border-radius:5px;
+    position: relative;
+    overflow:hidden;
+    width:100%;
+}
+
+.progress-bar{
+    background-color:black;
+    font-weight:500;
+    font-size:15px;
+    height:100%;
+    color:yellow;
+    line-height:20px;
+    border-radius:5px 0 0 5px;
 }
 
 @media(max-width:786px){
