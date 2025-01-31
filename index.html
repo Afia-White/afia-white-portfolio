@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Theresa Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -135,17 +136,35 @@
             </div>
         </div>
     </section>
-    <section>
-        <h1 id="contact">My contact</h1>
+    <section class="footer">
         <div>
             <h1 class="hi">CONTACT ME</h1>
+            <p class="hi">If you have any questions, feedback, or just want to say hello, feel free to reach out!
+                I'll get back to you as soon as possible.</p>
         </div>
         <div class="type">
-            <label for="">Your name</label>
+            <div>
+                <form action="">
+                    <input type="text" placeholder="Your Name"><br><br>
+                    <input type="email" placeholder="Your Email"><br><br>
+                    <input type="number" placeholder="Please enter your phone number"><br><br>
+                    <input type="textarea" placeholder="Message"><br><br>
+                    <input type="submit" value="submit"><br><br>
+                </form>
+            </div>
+            <div>
+                <h4 class="details">CONTACT DETAILS</h4>
+                <div class="location">
+                    <p><i class="fa-solid fa-location-dot"></i>Ejisu-Kumasi,Ghana</p>
+                    <p><i class="fa-regular fa-envelope"></i>afiawhite82@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0244144548</p>
+                </div>
+            </div>
+            <!-- <label for="">Your name</label>
             <input type="name">
             <input type="email">
             <input type="phone">
-            <input type="message">
+            <input type="message"> -->
         </div>
     </section>
 </body>
